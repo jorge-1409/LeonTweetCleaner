@@ -197,18 +197,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/Console.git",
-            "reference": "4285104166a0741f85ba9aa176a12a9f2e4df7c3"
+            "reference": "ce8d34ee8b1abc7c0f3d0923fdb32a85e7decb98"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/Console/zipball/4285104166a0741f85ba9aa176a12a9f2e4df7c3",
-            "reference": "4285104166a0741f85ba9aa176a12a9f2e4df7c3",
+            "url": "https://api.github.com/repos/symfony/Console/zipball/ce8d34ee8b1abc7c0f3d0923fdb32a85e7decb98",
+            "reference": "ce8d34ee8b1abc7c0f3d0923fdb32a85e7decb98",
             "shasum": ""
         },
         "require": {
             "php": ">=5.3.3"
         },
-        "time": "2013-03-20 14:03:03",
+        "time": "2013-03-23 07:15:46",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -245,12 +245,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Seldaek/monolog.git",
-            "reference": "dd0b216e0229a24178c2f0782f8a7172c7ed1c96"
+            "reference": "d13bd6e1acb4b7e413320d0b8854d39b1b5d8979"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Seldaek/monolog/zipball/dd0b216e0229a24178c2f0782f8a7172c7ed1c96",
-            "reference": "dd0b216e0229a24178c2f0782f8a7172c7ed1c96",
+            "url": "https://api.github.com/repos/Seldaek/monolog/zipball/d13bd6e1acb4b7e413320d0b8854d39b1b5d8979",
+            "reference": "d13bd6e1acb4b7e413320d0b8854d39b1b5d8979",
             "shasum": ""
         },
         "require": {
@@ -269,7 +269,7 @@
             "mlehner/gelf-php": "Allow sending log messages to a GrayLog2 server",
             "raven/raven": "Allow sending log messages to a Sentry server"
         },
-        "time": "2013-03-18 18:06:02",
+        "time": "2013-03-24 12:38:38",
         "type": "library",
         "extra": {
             "branch-alias": {
