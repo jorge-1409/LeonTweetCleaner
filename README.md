@@ -8,11 +8,13 @@ This php script deletes your tweets given one or many Twitter javascript archive
 
 ### Before to running the command
 
-* Download your Twitter archive, required *
+*Download your Twitter archive, required*
 
-* Register the Twitter App *
+*Register the Twitter App*
 
-* Copy your tweet files to the data dir *
+*Configure Leon*
+
+*Copy your tweet files to the data dir*
 
 ### Running the command
 
