@@ -34,8 +34,10 @@ Just type in your command line the following command
 ## Author and Credits
 
 Asier Marqués <asiermarques@gmail.com>
-Web:     asiermarques.com (spanish)
-Company: Simettric, simettric.com
+
+Web:     http://asiermarques.com (spanish)
+
+Company: Simettric, http://simettric.com
 
 This application is under MIT license.
 Read the LICENSE.txt file to know more details.
