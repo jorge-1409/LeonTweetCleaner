@@ -1,6 +1,5 @@
 # Leon, the tweet cleaner
 
-## Description
 This php script deletes your tweets given one or many Twitter javascript archive files.
 
 

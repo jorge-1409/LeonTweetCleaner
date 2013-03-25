@@ -7,11 +7,11 @@
  */
 
 $loader = require __DIR__ . "/vendor/autoload.php";
-$loader->add("Simettric", __DIR__ . "/src");
-
 
 use Symfony\Component\Console\Application;
 
+
+$loader->add("Simettric", __DIR__ . "/src");
 $console = new Application();
 $console->add(new \Simettric\Leon\Leon(__DIR__ . '/config.ini',
                                        __DIR__ . '/data',

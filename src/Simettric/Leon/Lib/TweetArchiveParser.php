@@ -21,7 +21,6 @@ class TweetArchiveParser{
 
     }
 
-
     function parse(){
 
 

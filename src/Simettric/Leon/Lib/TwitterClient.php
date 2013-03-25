@@ -18,7 +18,6 @@ class TwitterClient{
     private $_client;
 
 
-
     function __construct($oauth_config=array()){
 
 
@@ -27,7 +26,6 @@ class TwitterClient{
 
         $this->_client = $client;
     }
-
 
     function destroy($tweet_id){
         $request = $this->_client->post('statuses/destroy/'.$tweet_id.'.json');
@@ -56,7 +54,6 @@ class TwitterClient{
         }
 
     }
-
 
 
 }

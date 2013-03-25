@@ -105,6 +105,7 @@ class Leon extends Console\Command\Command{
     function showLN($string=""){
         if(!$this->_silent_mode) $this->_output->writeln($string);
     }
+
     function log($string, $type="info", $die=false){
 
         $pattern = '%s';
