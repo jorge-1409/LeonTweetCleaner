@@ -194,7 +194,7 @@ class Leon extends Console\Command\Command{
 
                 $file = $data_dir . $filename;
 
-                if($filename != "." && $filename != ".." && is_file($data_dir . $filename) && strrpos($data_dir, ".js")===0){
+                if($filename != "." && $filename != ".." && is_file($file) && strrpos($filename, ".js")!==FALSE){
 
                     $ids    = array();
                     $parser = new \Simettric\Leon\Lib\TweetArchiveParser($file);
