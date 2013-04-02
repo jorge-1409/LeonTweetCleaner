@@ -25,7 +25,9 @@ class TweetArchiveParser{
 
 
         $content    = trim(substr($this->_content, strpos($this->_content, "["), strlen($this->_content)));
-        if($content = json_decode($content, true)){
+
+        
+        if($content = json_decode($content, true, 512, JSON_BIGINT_AS_STRING)) {
 
 
             if(is_array($content)){
