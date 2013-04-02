@@ -32,7 +32,7 @@ class TwitterClient{
 
         try{
             $response = $request->send();
-        }catch (\Guzzle\Http\Exception\ClientErrorResponseException $e){
+        }catch (\Guzzle\Http\Exception\BadResponseException $e){
             $response = $e->getResponse();
         }
 
